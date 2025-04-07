@@ -12,7 +12,7 @@ public class Code3Lab01 {
         System.out.print("파운드(lb)를 입력하세요: ");
         int num1 = s.nextInt();
         double result1 = num1 * lb;
-        System.out.printf("%d파운드(lb)는 %.3f kg 입니다.\n", num1, result1);
+        System.out.printf("%d파운드(lb)는 %.3f kg 입니다.", num1, result1);
 
         System.out.print("킬로그램(kg)를 입력하세요: ");
         int num2 = s.nextInt();
