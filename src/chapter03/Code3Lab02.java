@@ -8,10 +8,10 @@ public class Code3Lab02 {
         total += 1800*2;
         total -= 3500*5;
         total += 4000*4;
-        total += 1500*1;
+        total += 1500;
         total += 2000*4;
         total += 1800*5;
 
-        System.out.println("자바 편의점 일일 총매출은 " + total + "원 입니다.");
+        System.out.println("자바 편의점 일일 총매출은 " + total + "원 입니다. 돈 벌어와 돈!!");
     }
 }
