@@ -27,4 +27,4 @@ public class CompetitionWithComputer {
 
         s1.close();
     }
-}
+};
