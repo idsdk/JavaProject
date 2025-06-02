@@ -10,5 +10,6 @@ public class ContinueTest {
             sum += i;
         }
         System.out.println("1~100 까지의 합계(5의 배수를 제외) : " + sum);
+
     }
 }
