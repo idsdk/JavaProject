@@ -2,6 +2,10 @@ package chapter07.rabbit;
 
 public class Rabbit {
 //    속성: 모양, x, y
+//    필드 == 변수
+//    이 클래스에서 만든 매서드들을 RabbitTest에서 참조변수로 불러와
+//    Rabbit클래스의 매서드와 필드를 사용할 수 있다.
+
     private String shape;
     private int x;
     private int y;

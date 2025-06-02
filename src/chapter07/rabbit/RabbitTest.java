@@ -2,9 +2,16 @@ package chapter07.rabbit;
 
 public class RabbitTest {
     public static void main(String[] args) {
+
+//        Rabbit 클래스에서 rabbit1, 2, 3를 참조변수로 불러와
+//        RabbitTest 클래스에서 새 객체를 생성한다.
         Rabbit rabbit1 = new Rabbit();
         Rabbit rabbit2 = new Rabbit();
         Rabbit rabbit3 = new Rabbit();
+
+//        Rabbit 클래스의 매서드를 rabbit1, 2, 3의 변수로 호출
+//        했기 때문에 Rabbit 클래스의 매서드를 사용할 수 있다.
+//        이는 Rabbit 클래스의 매서드에 실제 값을 입력한 것이다.
 
         rabbit1.setShape("분홍네모");
         rabbit2.setShape("갈색세모");
