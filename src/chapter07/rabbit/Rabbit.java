@@ -10,6 +10,20 @@ public class Rabbit {
     private int x;
     private int y;
 
+    public Rabbit() {
+        shape = "기본토끼";
+        x = 30;
+        y = 30;
+    }
+
+//    지역변수의 필드를 불러 올 때는 this.필드 이고 매개변수를 불러올 때는
+//    그냥 매개변수를 쓰면 된다.
+    public Rabbit(String shape, int x, int y) {
+        this.shape = shape;
+        this.x = x;
+        this.y = y;
+    }
+
     public String getShape() {
         return shape;
     }
